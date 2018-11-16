@@ -1,25 +1,37 @@
 ---
 title: "Min fina titel"
 ---
-Min me-sida i kursen design
+Välkommen till min me-sida i kursen design
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/me.jpg?w=300" class="right" caption="Bild på Mats"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Det här är min högst anspråkslösa me-sida för kursen design. Den finns mest
+till för att låta mig testa olika lösningar inom ramen för kursen.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Jag har bakgrund från Treårigt Naturvetenskaplig linje på gymnasiet i en
+norrländsk kuststad, har studerat språk, litteratur, retorik och ledarskap, är
+allmänt vetgirigt nyfiken och bor sedan juni år 2000 i sydvästra Skåne.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Under 2018 tog jag upp löpning och genmförde mitt första halvmarathon, och när
+en dröm om att någon genomföra Western States 100-Mile Endurance Run.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Jag mig på ett jobb inom kundservice, men målet är att bli en duktig
+webbprogrammerare och småningom när jag blivit yrkesverksam som programmerare
+skaffa mig en master inom CS.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
+Artikelförfattare
+---------------------
+<figure class="figure left">
+<a href="img/me-small.png"><img src="img/me-small.png" alt="Mats Bergman"/></a>
+<figcaption>
+</figcaption>
+</figure>
 
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+<p><a href=http://www.student.bth.se/~mabq17/dbwebb-kurser/design/me/redovisa/htdocs/
+    rel=author><strong>Mats Bergman</strong></a> studerar vid Blekinge Tekniska
+    Högskola, arbetar inom kundservice och tycker om löpning på fritiden.</p>
+</div>
