@@ -1,0 +1,183 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #000;
+  font-size: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #000;
+  font: 100.01%/1 sansserif;
+}
+h1 {
+  font-size: 1.8em;
+  color: #000;
+}
+h2 {
+  font-size: 1.6em;
+  color: #000;
+}
+h3 {
+  font-size: 1.4em;
+  color: #000;
+}
+p,
+a {
+  font-size: 1em;
+  color: #000;
+}
+.site-logo {
+  display: none;
+}
+.site-logo-text {
+  font-size: 3em;
+}
+.rm-default {
+  display: flex;
+  width: 100%;
+  background-color: grey;
+  border-radius: 10px;
+}
+.rm-default ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.rm-default li {
+  float: left;
+  list-style-type: none;
+  border-radius: 10px;
+}
+.rm-default li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 0.5em;
+  text-decoration: none;
+}
+.rm-default li a:hover {
+  background-color: darkgrey;
+  border-radius: 10px;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+  display: none;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+  display: none;
+}
+.inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.wrap-all {
+  /* box-sizing: border-box; */
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: lightgrey;
+  border-radius: 10px;
+  min-height: 80em;
+}
+.outer-wrap-header {
+  display: flex;
+  font-size: 1.4em;
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+.outer-wrap-footer {
+  font-size: 1.4em;
+  width: 1100px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.footer-column-wrapper {
+  display: flex;
+  border-radius: 10px;
+}
+.footer-column {
+  border-radius: 10px;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */
