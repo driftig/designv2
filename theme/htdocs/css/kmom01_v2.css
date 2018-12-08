@@ -99,14 +99,6 @@ a {
 /**
  * General layout
  */
-/* Hide submenu, leave this to kmom02 */
-.rm-desktop ul {
-  display: none;
-}
-/* Hide responsive/mobile menu, leave this to kmom02 */
-.rm-navbar-max {
-  display: none;
-}
 .inner-wrap {
   max-width: 1100px;
   margin: 0 auto;
@@ -117,7 +109,7 @@ a {
   margin: 0 auto;
   background-color: lightgrey;
   border-radius: 10px;
-  min-height: 80em;
+  min-height: 40em;
 }
 .outer-wrap-header {
   display: flex;
