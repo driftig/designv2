@@ -4465,33 +4465,6 @@ a {
 .site-logo-text {
   font-size: 3em;
 }
-.rm-default {
-  display: flex;
-  width: 100%;
-  background-color: grey;
-  border-radius: 10px;
-}
-.rm-default ul {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-.rm-default li {
-  float: left;
-  list-style-type: none;
-  border-radius: 10px;
-}
-.rm-default li a {
-  display: block;
-  color: #000;
-  text-align: center;
-  padding: 0.5em;
-  text-decoration: none;
-}
-.rm-default li a:hover {
-  background-color: darkgrey;
-  border-radius: 10px;
-}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
