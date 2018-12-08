@@ -4319,6 +4319,102 @@ template {
 /**
  * Internal self contained modules, save in directory module/.
  */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+html,
+body {
+  font-size: 100%;
+  background-color: black;
+}
+h1 {
+  font-size: 1.8em;
+  color: black;
+}
+h2 {
+  font-size: 1.6em;
+  color: black;
+}
+h3 {
+  font-size: 1.4em;
+  color: black;
+}
+p,
+a {
+  font-size: 1em;
+  color: black;
+}
+.wrap-all {
+  /* box-sizing: border-box; */
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+.outer-wrap-header {
+  display: flex;
+  font-size: 1.4em;
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+.site-logo {
+  display: none;
+}
+.region-header-col-1 {
+  width: 100%;
+  border-radius: 10px;
+}
+.site-logo-text {
+  font-size: 3em;
+}
+.my-navbar {
+  display: flex;
+  width: 100%;
+  background-color: grey;
+  border-radius: 10px;
+}
+.my-navbar ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.my-navbar li {
+  float: left;
+  list-style-type: none;
+  border-radius: 10px;
+}
+.my-navbar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0.5em;
+  text-decoration: none;
+}
+.my-navbar li a:hover {
+  background-color: darkgrey;
+  border-radius: 10px;
+}
+.figure {
+  width: 400px;
+  float: right;
+}
+.outer-wrap-footer {
+  font-size: 1.4em;
+  width: 1100px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.footer-column-wrapper {
+  display: flex;
+  border-radius: 10px;
+}
+.footer-column {
+  border-radius: 10px;
+}
 /**
  * Style for the stylechooser.
  */
