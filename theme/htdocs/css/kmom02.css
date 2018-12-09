@@ -4363,6 +4363,9 @@ a {
   font-size: 1em;
   color: #000;
 }
+img {
+  max-width: 100%;
+}
 .site-logo {
   display: none;
 }
@@ -4400,6 +4403,10 @@ a {
   font-size: 1.4em;
   background-color: lightgrey;
   border-radius: 10px;
+}
+.inner-wrap-header {
+  max-width: 100%;
+  overflow: auto;
 }
 .outer-wrap-footer {
   font-size: 1.4em;
