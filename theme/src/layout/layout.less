@@ -45,8 +45,57 @@
 }
 
 .inner-wrap-header {
+    display: flex;
     max-width: 100%;
-    overflow: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.region-header-col-1 {
+    float: left;
+}
+
+.region-header-col-2 {
+    float: left;
+}
+
+.my-navbar {
+    display: flex;
+    width: 100%;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.my-navbar ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.my-navbar li {
+    float: left;
+    list-style-type: none;
+    border-radius: 10px;
+}
+
+.my-navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+.my-navbar li a:hover {
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+
+.figure {
+    width: 400px;
+    float: right;
 }
 
 .outer-wrap-footer {
