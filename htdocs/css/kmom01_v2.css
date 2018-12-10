@@ -96,10 +96,18 @@ img {
 }
 .inner-wrap-header {
   display: flex;
-  max-width: 100%;
+  width: 100%;
 }
 .row {
+  width: 100%;
+}
+/**
+ * Center navbar vertically with logo-text.
+ */
+.region-header {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .region-header-col-1 {
   float: left;
@@ -157,6 +165,49 @@ img {
  */
 @media screen and (max-width: 1500px) {
   .site-logo {
+    display: none;
+  }
+}
+/**
+ * Navbar
+ */
+@media screen and (max-width: 920px) {
+  .rm-small {
+    display: block;
+  }
+  .rm-desktop {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 860px) {
+  .rm-small {
+    display: block;
+  }
+  .rm-desktop {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 820px) {
+  .rm-small {
+    display: block;
+  }
+  .rm-desktop {
+    font-size: 70%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .rm-small {
+    display: block;
+  }
+  .rm-desktop {
+    font-size: 60%;
+  }
+}
+@media screen and (max-width: 660px) {
+  .rm-small {
+    display: block;
+  }
+  .rm-desktop {
     display: none;
   }
 }
