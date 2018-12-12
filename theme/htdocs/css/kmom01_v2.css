@@ -69,13 +69,6 @@ img {
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
  */
-/**
- * Variables
- */
-/**
- * General layout
- */
-/* Hide submenu, leave this to kmom02 */
 .inner-wrap {
   max-width: 1100px;
   margin: 0 auto;
@@ -96,9 +89,6 @@ img {
 }
 .inner-wrap-header {
   display: flex;
-  width: 100%;
-}
-.row {
   width: 100%;
 }
 /**
@@ -145,6 +135,12 @@ img {
 .figure {
   width: 400px;
   float: right;
+}
+/**
+ * Main and sidebar layout.
+ */
+.inner-wrap-main {
+  display: flex;
 }
 .outer-wrap-footer {
   font-size: 1.4em;
